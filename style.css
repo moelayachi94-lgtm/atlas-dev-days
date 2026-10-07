@@ -1,0 +1,37 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: #000000;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+nav a.active {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 3px;
+}
