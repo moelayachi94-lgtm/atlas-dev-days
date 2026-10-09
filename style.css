@@ -278,12 +278,16 @@ margin: 20px;
 }
 
 .image-inter{
-  height: 200px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 30px;
 }
 
 .speakers-grid{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+justify-content: center;
 
 }
 .inter-title{
@@ -292,4 +296,12 @@ margin: 20px;
 }
 .title{
   color: #777777;
+}
+.speaker-card{
+  flex-wrap: wrap;
+/*   border: 3px solid rgb(54, 13, 54); */
+  border-radius: 15px;
+  background-color: rgba(47, 2, 47, 0.412) ;
+  margin: 15px;
+  padding-bottom: 15px;
 }
