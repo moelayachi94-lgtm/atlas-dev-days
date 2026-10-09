@@ -204,7 +204,6 @@ main {
   width: 100%;
   max-width: 420px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 .form-card h2 {
@@ -278,3 +277,19 @@ border-radius: 10px;
 margin: 20px;
 }
 
+.image-inter{
+  height: 200px;
+}
+
+.speakers-grid{
+  display: flex;
+  justify-content: space-around;
+
+}
+.inter-title{
+  font-size: 1.6rem;
+  justify-content: center;
+}
+.title{
+  color: #777777;
+}
