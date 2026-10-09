@@ -8,47 +8,60 @@
   </head>
   <body>
     <header>
-     <a href="index.html" class="logo">
-        <img src="images/logo.png" alt="Logo Atlas Dev Days" /></a>
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Logo Atlas Dev Days"
+      /></a>
       <nav>
         <a href="index.html">Accueil</a>
         <a href="programme.html">Programme</a>
         <a href="intervenants.html">Intervenants</a>
-        <a href="inscription.html"class="active">Inscription</a>
+        <a href="inscription.html" class="active">Inscription</a>
       </nav>
     </header>
 
     <main>
       <div class="form-card">
         <h2>Inscription</h2>
-        <form>
+        <form action="#" method="post">
           <input type="text" placeholder="Nom Complet" required />
           <input type="email" placeholder="Adrresse Email" required />
           <input type="tel" placeholder="numéro de telephone" required />
+          <div  class="selection">
+             <select name="role" id="role" required>
+          <option value="">selectionnez un profile</option>
+          <option value="Dévloppeur">Dévloppeur</option>
+          <option value="étudiant">étudiant</option>
+          <option value="Designer">Designer</option>
+          <option value="Autre">Autre</option>
+         </select>
+          </div>
+        
+         
           <button type="submit" class="btn">Confirmer</button>
         </form>
       </div>
     </main>
     <footer>
-  <div class="footer-container">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>À propos</h3>
+          <p>
+            ATLAS DEV DAYS est un événement dédié aux passionnés de technologie
+            et de développement.
+          </p>
+        </div>
 
-    <div class="footer-about">
-      <h3>À propos</h3>
-      <p>ATLAS DEV DAYS est un événement dédié aux passionnés de technologie et de développement.</p>
-    </div>
+        <div class="footer-social">
+          <h3>Suivez-nous</h3>
+          <a href="https://www.facebook.com/">Facebook</a>
+          <a href="https://x.com/">X (Twitter)</a>
+          <a href="https://www.instagram.com/">Instagram</a>
+        </div>
+      </div>
 
-    <div class="footer-social">
-      <h3>Suivez-nous</h3>
-      <a href="https://www.facebook.com/">Facebook</a>
-      <a href="https://x.com/">X (Twitter)</a>
-      <a href="https://www.instagram.com/">Instagram</a>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>&copy; 2026 ATLAS DEV DAYS. Tous droits réservés.</p>
-  </div>
-</footer>
+      <div class="footer-bottom">
+        <p>&copy; 2026 ATLAS DEV DAYS. Tous droits réservés.</p>
+      </div>
+    </footer>
   </body>
 </html>
