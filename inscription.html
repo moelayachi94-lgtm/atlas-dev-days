@@ -22,21 +22,28 @@
     <main>
       <div class="form-card">
         <h2>Inscription</h2>
-        <form action="#" method="post">
+        <form method="post">
           <input type="text" placeholder="Nom Complet" required />
           <input type="email" placeholder="Adrresse Email" required />
           <input type="tel" placeholder="numéro de telephone" required />
           <div  class="selection">
-             <select name="role" id="role" required>
+             <select class="inter-opt" name="role" id="role" required>
           <option value="">selectionnez un profile</option>
           <option value="Dévloppeur">Dévloppeur</option>
           <option value="étudiant">étudiant</option>
           <option value="Designer">Designer</option>
           <option value="Autre">Autre</option>
          </select>
-          </div>
-          <button type="submit" class="btn">Confirmer</button>
-        </form>
+        </div>
+        <fieldset>
+          <legend>Ateliers souhaités</legend>
+          <label><input type="checkbox">Design inclusif</label>
+          <label><input type="checkbox">L'Ai dans votre workflow</label>
+             <label><input type="checkbox">Sécurité web</label>
+              
+        </fieldset>
+        <button type="submit" class="btn">Confirmer</button>
+      </form>
       </div>
     </main>
     <footer>
